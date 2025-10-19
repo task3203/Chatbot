@@ -1,9 +1,9 @@
 import streamlit as st
 import requests
 
-st.set_page_config(page_title="Chatbot with Google Gemini", page_icon="🤖")
+st.set_page_config(page_title="Chatbot Made by Taskeen Merchant", page_icon="🤖")
 
-API_KEY = "AIzaSyCCfuVTBW7J2JKjzxc4R-NMsFrntzq-5_Q"
+API_KEY = st.secrets["GOOGLE_GEMINI_API_KEY"]
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={API_KEY}"
 
 # Custom CSS for background, spacing, and font size
