@@ -41,7 +41,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.markdown("<h1>Simple Chatbot with Google Gemini</h1>", unsafe_allow_html=True)
+st.markdown("<h1>Simple Chatbot made by Taskeen Merchant </h1>", unsafe_allow_html=True)
 
 user_input = st.text_input("Ask me anything:", placeholder="Type your message...", key="input")
 
